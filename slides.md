@@ -5,26 +5,20 @@ date: Anno accademico 2018/2019
 ---
 
 ## Sistema delle armi
-Armi e powerup configurabili con un formato leggibile e compatto ad hoc.
-
-Per aggiungere armi personalizzate è sufficiente creare un file .btl, aggiungerlo nelle resources, aggiungerne il nome al file index ed associargli un asset grafico da codice
+- Armi e powerup configurabili con un formato leggibile e compatto ad hoc
+- Aggiunta di armi semplice
 
 ---
 
-# {data-background-color="grey" data-transition="zoom-out"}
+# {data-background-color="#fdf6e3" data-transition="zoom-out"}
 Overview classi per gli effetti
-![](uml/effect.svg){ height=600px }
+![](uml/effect.svg){ max-height=600px }
 
 ---
 
-# {data-background-color="grey" data-transition="zoom-in fade-out"}
-La classe chiave è Target, che ha vari attributi che permettono di filtrare giocatori o caselle sulla mappa tramite dei Predicate
-![](uml/target.svg){ height=400px }
-
----
-
-# {data-transition="fade-in"}
-Un target non specificato nella configurazione permette di scegliere qualunque opzione. Ogni attributo aggiunto restringe le scelte con i criteri indicati .
+# {data-background-color="#fdf6e3" data-transition="zoom-in"}
+## Target
+![](uml/target.svg){ max-height=580px }
 
 ---
 
@@ -33,9 +27,23 @@ Il network è stato astratto tra socket ed RMI tramite l'utilizzo di 4 interfacc
 
 ---
 
-# {data-background-color="grey"}
+# {data-background-color="#fdf6e3"}
 ![](images/network.png){ height=630px }
 
 ---
 
+# {data-background-color="#fdf6e3"}
+## Client → Server
+![](uml/client2server.svg){ max-height=600px }
 
+---
+
+# {data-background-color="#fdf6e3"}
+## Controller server
+![](uml/servercontroller.svg){ max-height=600px }
+
+---
+
+# {data-background-color="#fdf6e3"}
+## EventHandler
+![](uml/eventhandler.svg){ max-height=600px }
