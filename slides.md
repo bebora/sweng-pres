@@ -12,7 +12,6 @@ date: Anno accademico 2018/2019
 ---
 
 # {data-background-color="#fdf6e3" data-transition="zoom-in"}
- Effect
 ![](uml/effect.png){ max-height=600px }
 
 ---
@@ -24,8 +23,10 @@ date: Anno accademico 2018/2019
 ---
 
 # {data-background-color="#fdf6e3" data-transition="zoom-out"}
-## Network
-![](images/network.png){ height=630px }
+![](images/network.png){ height=500px }
+
+- RMI Chiama direttamente i metodi dell'interfaccia
+- Socket: JSON + VisitorPattern -> stessi metodi di RMI
 
 ---
 
@@ -40,13 +41,13 @@ date: Anno accademico 2018/2019
 ## EventHandler
 ![](uml/eventhandler.png){ max-height=600px }
 
-----
+---
 
 # {data-background-color="#fdf6e3" data-transition="zoom-out"}
 ## ViewUpdater
 ![](uml/ViewUpdater.png){ max-height=600px }
 
-----
+---
 
 # {data-background-color="#fdf6e3"}
 ## ViewReceiver
@@ -56,6 +57,19 @@ date: Anno accademico 2018/2019
 
 # {data-transition="zoom-out"}
 ## Testing
-- EffectControllerFramework
-- Bot
+- EffectControllerFramework - Mockito
+- Bot (circa 300 partite giocate)
 ![](uml/sonar.jpg)
+
+---
+
+## Funzionalità avanzate
+- Partite multiple con creazione gioco da LobbyController
+- DominationMatch sottoclasse di Match
+
+---
+
+# {data-transition="zoom-out"}
+## Possibili ottimizzazioni
+- Utilizzare micro-update, implementati ma non production-ready
+- Pinging solo da server

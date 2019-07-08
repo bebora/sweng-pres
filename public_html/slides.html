@@ -51,7 +51,7 @@
 </section>
 <section id="section" class="slide level1" data-background-color="#fdf6e3" data-transition="zoom-in">
 <h1></h1>
-<p>Effect <img data-src="uml/effect.png" data-max-height="600px" /></p>
+<p><img data-src="uml/effect.png" data-max-height="600px" /></p>
 </section>
 <section id="section-1" class="slide level1" data-background-color="#fdf6e3" data-transition="zoom-in">
 <h1></h1>
@@ -60,8 +60,11 @@
 </section>
 <section id="section-2" class="slide level1" data-background-color="#fdf6e3" data-transition="zoom-out">
 <h1></h1>
-<h2 id="network">Network</h2>
-<p><img data-src="images/network.png" height="630" /></p>
+<p><img data-src="images/network.png" height="500" /></p>
+<ul>
+<li>RMI Chiama direttamente i metodi dell’interfaccia</li>
+<li>Socket: JSON + VisitorPattern -&gt; stessi metodi di RMI</li>
+</ul>
 </section>
 <section id="section-3" class="slide level1" data-background-color="#fdf6e3" data-transition="zoom-in">
 <h1></h1>
@@ -87,8 +90,24 @@
 <h1></h1>
 <h2 id="testing">Testing</h2>
 <ul>
-<li>EffectControllerFramework</li>
-<li>Bot <img data-src="uml/sonar.jpg" /></li>
+<li>EffectControllerFramework - Mockito</li>
+<li>Bot (circa 300 partite giocate) <img data-src="uml/sonar.jpg" /></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="funzionalità-avanzate">Funzionalità avanzate</h2>
+<ul>
+<li>Partite multiple con creazione gioco da LobbyController</li>
+<li>DominationMatch sottoclasse di Match</li>
+</ul>
+</section>
+<section id="section-8" class="slide level1" data-transition="zoom-out">
+<h1></h1>
+<h2 id="possibili-ottimizzazioni">Possibili ottimizzazioni</h2>
+<ul>
+<li>Utilizzare micro-update, implementati ma non production-ready</li>
+<li>Pinging solo da server</li>
 </ul>
 </section>
     </div>
