@@ -49,17 +49,17 @@ date: Anno accademico 2018/2019
 
 ---
 
-# {data-background-color="#fdf6e3"}
+# {data-background-color="#fdf6e3" data-transition="zoom-in"}
 ## ViewReceiver
 ![](uml/ViewReceiver.png){ max-height=600px }
 
 ---
 
-# {data-transition="zoom-out"}
+
 ## Testing
 - EffectControllerFramework - Mockito
 - Bot (circa 300 partite giocate)
-![](uml/sonar.jpg)
+![](images/sonar.png)
 
 ---
 
