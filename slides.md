@@ -4,14 +4,15 @@ title: Progetto Ingegneria del Software
 date: Anno accademico 2018/2019
 ---
 
-## Sistema delle armi
+## Carte
 - Armi e powerup configurabili con un formato leggibile e compatto ad hoc
 - Aggiunta di armi semplice
+- [Specifiche per il formato](https://bebaruba.tk/adrenalina/btl.html)
 
 ---
 
-# {data-background-color="#fdf6e3" data-transition="zoom-out"}
-Overview classi per gli effetti
+# {data-background-color="#fdf6e3" data-transition="zoom-in"}
+ Effect
 ![](uml/effect.png){ max-height=600px }
 
 ---
@@ -22,13 +23,13 @@ Overview classi per gli effetti
 
 ---
 
-# {data-background-color="#fdf6e3"}
+# {data-background-color="#fdf6e3" data-transition="zoom-out"}
 ## Network
 ![](images/network.png){ height=630px }
 
 ---
 
-# {data-background-color="#fdf6e3"}
+# {data-background-color="#fdf6e3" data-transition="zoom-in"}
 ## Client → Server
 ![](uml/client2server.png){ max-height=600px }
 
@@ -39,13 +40,13 @@ Overview classi per gli effetti
 ## EventHandler
 ![](uml/eventhandler.png){ max-height=600px }
 
----
+----
 
-# {data-background-color="#fdf6e3"}
+# {data-background-color="#fdf6e3" data-transition="zoom-out"}
 ## ViewUpdater
 ![](uml/ViewUpdater.png){ max-height=600px }
 
----
+----
 
 # {data-background-color="#fdf6e3"}
 ## ViewReceiver
@@ -53,7 +54,8 @@ Overview classi per gli effetti
 
 ---
 
+# {data-transition="zoom-out"}
 ## Testing
 - EffectControllerFramework
 - Bot
-
+![](uml/sonar.jpg)
