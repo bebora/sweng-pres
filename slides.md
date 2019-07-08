@@ -38,3 +38,22 @@ Overview classi per gli effetti
 # {data-background-color="#fdf6e3"}
 ## EventHandler
 ![](uml/eventhandler.png){ max-height=600px }
+
+---
+
+# {data-background-color="#fdf6e3"}
+## ViewUpdater
+![](uml/ViewUpdater.png){ max-height=600px }
+
+---
+
+# {data-background-color="#fdf6e3"}
+## ViewReceiver
+![](uml/ViewReceiver.png){ max-height=600px }
+
+---
+
+## Testing
+- EffectControllerFramework
+- Bot
+
